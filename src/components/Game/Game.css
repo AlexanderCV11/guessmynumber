@@ -1,0 +1,66 @@
+.Game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 16px;
+    
+}
+.Game img {
+  display: flex;
+  min-height: 50vh;
+  
+}
+
+.Game input {
+    background-color: orangered;
+    border-radius: 100px;
+    color: darkred;
+    text-align: center;
+    width: 200px;
+    height: 120px;
+    font-size: 90px;
+}
+
+.Game button {
+    background-color: royalblue;
+    border: none;
+    color: yellow;
+    padding: 16px 32px; 
+    padding: 16px 24px; 
+    font-size: 20px;
+    font-weight: bold;
+    margin: 16px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 120px; 
+    width: 140px; 
+    
+}
+
+.Game h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    color: whitesmoke;
+    font-family: "Times New Roman", Times, serif;
+}
+  
+  /* La propiedad CSS -moz- utiliza en Gecko (Firefox)  */
+  @-moz-keyframes flicker{  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+  }
+  
+  /* sólo está disponible en navegadores basados en  WebKit como safari */
+  @-webkit-keyframes flicker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+     100% { opacity: 1.0; }
+  }
+  
+  @keyframes flicker {  
+    0% { opacity: 1.0; }
+     50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
